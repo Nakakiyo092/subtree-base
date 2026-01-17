@@ -18,7 +18,7 @@ git fetch
 git subtree add --prefix=test subrepo main --squash
 ```
 
-The commands below sync changes between the base and the sub.
+The commands below sync changes between this repository and `subtree-sub`.
 
 ```
 git subtree push --prefix=test subrepo main
