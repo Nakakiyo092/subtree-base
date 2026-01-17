@@ -18,10 +18,11 @@ git fetch
 git subtree add --prefix=test subrepo main --squash
 ```
 
-The commands below sync changes between this repository and `subtree-sub`.
+The commands below sync changes between this repository and `subtree-sub`.  
+`gh auth login` can be used to login to github.com.
 
 ```
-git subtree push --prefix=test subrepo main
 git subtree pull --prefix=test subrepo main --squash
+git subtree push --prefix=test subrepo main
 ```
 
