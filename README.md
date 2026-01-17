@@ -1,4 +1,4 @@
-# Base tree
+# Main Repository
 
 This is the main repository and includes two external repositories as subtrees.
 
